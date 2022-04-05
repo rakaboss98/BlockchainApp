@@ -1,1 +1,1 @@
-web: uvicorn Version_1:BlockchainApp --host 0.0.0.0 --port $PORT --workers 2
+web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker Version_1:BlockchainApp
