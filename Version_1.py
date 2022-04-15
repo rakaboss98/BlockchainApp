@@ -91,9 +91,9 @@ chain.AddNewTransaction({"Rakshit2Kishan": 45,
                          "Kishan2Rakshit": 100})
 chain.Mine()
 
-chain.AddNewTransaction({"Rakshit2Shalina": 45,
-                         "Shalina2Kishan": 90,
-                         "Kishan2Shalina": 100})
+chain.AddNewTransaction({"Rakshit2Suyash": 45,
+                         "Suyash2Kishan": 90,
+                         "Kishan2Rakshit": 100})
 chain.Mine()
 
 # Print the various blocks of the blockchain
